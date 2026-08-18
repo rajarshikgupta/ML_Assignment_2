@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from sklearn.metrics import accuracy_score, roc_auc_score, precision_score, recall_score, f1_score, matthews_corrcoef, confusion_matrix, classification_report
 
-st.set_page_config(page_title="Handwritten Digit Classification", page_icon="🔢", layout="wide")
+st.set_page_config(page_title="Rajarshi ML Classification LAB", page_icon="🔢", layout="wide")
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_DIR = BASE_DIR / "model"
@@ -20,7 +20,7 @@ MODEL_FILES = {
 
 FEATURES = [f"pixel_{i}" for i in range(1, 65)]
 
-st.title("🔢 Handwritten Digit Classification")
+st.title("Rajarshi ML Classification LAB")
 st.caption("Interactive comparison of five classification models")
 
 uploaded = st.file_uploader("Upload test data (CSV)", type=["csv"])

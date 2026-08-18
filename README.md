@@ -18,7 +18,7 @@ This satisfies the assignment minimum of 12 features and 500 instances.
 
 ## c. Github Repository Link
 
-**_**
+**https://github.com/rajarshikgupta/ML_Assignment_2/**
 
 ## d. Models Used
 
@@ -76,7 +76,7 @@ streamlit run app.py
 
 ## Streamlit Community Cloud Link
 
-**__**
+**https://mlassignment2-rajarshi.streamlit.app/**
 
 ## Dataset References
 
